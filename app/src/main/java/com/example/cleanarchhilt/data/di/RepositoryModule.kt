@@ -15,5 +15,5 @@ object RepositoryModule {
 
     @Singleton
     @Provides
-    fun providecatFactRepository(api: DogFactApi): DogFactRepository = DogFactRepositoryImpl(api)
+    fun provideDogFactRepository(api: DogFactApi): DogFactRepository = DogFactRepositoryImpl(api)
 }
