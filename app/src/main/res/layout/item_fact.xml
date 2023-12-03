@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fact"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="20dp"
-    android:layout_margin="5dp">
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="20dp">
-
-        <TextView
-            android:id="@+id/fact"
-            android:text="text"
-            android:textSize="20sp"
-            android:textAlignment="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-    </FrameLayout>
-
-</com.google.android.material.card.MaterialCardView>
+    android:gravity="center"
+    android:layout_margin="5dp"
+    android:text="text"
+    android:textSize="20sp"
+    android:padding="20dp"
+    android:background="@drawable/rounded_shape">
+</TextView>
